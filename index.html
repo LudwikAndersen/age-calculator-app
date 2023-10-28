@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link href="style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  
+</head>
+<body>
+<div class="container">
+  <div class="data">
+    <div class="day" id="d1">
+      <p class="d" id="d">Day</p>
+      <input placeholder="DD" id="dd" class="dd"></input>
+      <div id="wynik1" class="wynik"></div>
+    </div>
+
+    <div class="day" id="d2">
+      <p class="d" id="m">Month</p>
+      <input placeholder="MM" id="mm" class="dd"></input>
+      <div id="wynik2" class="wynik"></div>
+    </div>
+
+    <div class="day">
+      <p class="d" id="y">Year</p>
+      <input placeholder="YYYY" id="yy" class="dd"></input>
+      <div id="wynik3" class="wynik"></div>
+    </div>
+    <div style="clear: both"></div>
+    <div id="dayday"></div>
+    <div class="arrow">
+    <img src="assets/images/icon-arrow.svg" id="arrow"/>
+    </div>
+  </div>
+  <div>
+    <div class="m"><p><span id="m1">--</span> years</p></div>
+    <div class="m"><p><span id="m2">--</span> months</p></div>
+    <div class="m"><p><span id="m3">--</span> days</p></div>
+  </div>
+  </div>
+  
+</body>
+<script src="jquery-3.7.0.min.js"></script>
+<script src="java.js"></script>
+</html>

@@ -1,0 +1,166 @@
+body {
+    background-color: hsl(0, 0%, 94%);
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    width: 650px;
+    height: 450px;
+    border-radius: 15px;
+    border-bottom-right-radius: 170px;
+    padding: 20px 40px 40px 40px;
+}
+
+.day {
+    float: left;
+    position: relative;
+}
+
+input {
+    color: hsl(0, 1%, 44%);
+    font-weight: bold;
+    font-size: 32px;
+}
+
+#d1 {
+    margin-right: 25px;
+}
+
+#d2 {
+    margin-right: 25px;
+}
+
+.dd {
+    width: 120px;
+    padding: 10px;
+    border: 2px solid hsl(0, 0%, 94%);
+    border-radius: 5px;
+    outline: none;
+}
+
+.dd:hover {
+    width: 120px;
+    padding: 10px;
+    border: 2px solid hsl(259, 100%, 65%);
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+.mm {
+    width: 120px;
+    padding: 10px;
+    border: 2px solid hsl(0, 0%, 94%);
+    border-radius: 5px;
+    outline: none;
+}
+
+.yy {
+    width: 120px;
+    padding: 10px;
+    border: 2px solid hsl(0, 0%, 94%);
+    border-radius: 5px;
+    outline: none;
+}
+
+.ddd {
+    width: 120px;
+    padding: 10px;
+    border: 2px solid hsl(0, 100%, 67%);
+    border-radius: 5px;
+    outline: none;
+}
+
+.ddd:hover {
+    width: 120px;
+    padding: 10px;
+    border: 2px solid hsl(259, 100%, 65%);
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.day span {
+    font-size: 32px;
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    pointer-events: none;
+}
+
+.d {
+    color: hsl(0, 1%, 44%);
+    margin-bottom: 8px;
+}
+
+.dr {
+    color: hsl(0, 100%, 67%);
+    margin-bottom: 8px;
+}
+
+.m {
+    color: hsl(0, 1%, 44%);
+    margin-bottom: 8px;
+}
+
+.mr {
+    color: hsl(0, 100%, 67%);
+    margin-bottom: 8px;
+}
+
+.y {
+    color: hsl(0, 1%, 44%);
+    margin-bottom: 8px;
+}
+
+.yr {
+    color: hsl(0, 100%, 67%);
+    margin-bottom: 8px;
+}
+
+#dayday {
+    content: "";
+    background-color: hsl(0, 0%, 94%);
+    width: 600px;
+    height: 1.5px;
+    display: block;
+    top: 150px;
+    margin: 40px 0 20px 0;
+}
+
+span {
+    color: hsl(259, 100%, 65%);
+}
+
+.m p {
+    font-size: 82px;
+    margin: 0;
+    margin-bottom: -30px;
+    padding: 0;
+}
+
+.arrow {
+    background-color: blueviolet;
+    border-radius: 50px;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 700%;
+    position: absolute;
+    top: 31%; left: 65%;
+}
+
+.arrow:hover {
+    cursor: pointer;
+    background-color: hsl(0, 0%, 8%);
+}
+
+.wynik {
+    font-size: 14px;
+    color: hsl(0, 100%, 67%);
+}
